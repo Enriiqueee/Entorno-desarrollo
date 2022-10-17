@@ -44,7 +44,7 @@ public class Placa_Base {
 
     public String getFabricante(){return fabricante;}
 
-    public void setFabricante({this.fabricante = fabricante})
+    public void setFabricante(){this.fabricante = fabricante;}
 
     public Integer getPrecio(){
         return precio;

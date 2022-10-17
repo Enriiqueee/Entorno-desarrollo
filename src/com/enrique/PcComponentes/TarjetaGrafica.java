@@ -40,7 +40,7 @@ public class TarjetaGrafica {
         return modelo;
     }
 
-    public void setModelo(){this.modelo = modelo;}
+    public void setModelo(String s){this.modelo = modelo;}
 
     public String getPuertos() {
         return puertos;
