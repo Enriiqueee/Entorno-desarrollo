@@ -72,7 +72,15 @@ public class Main {
         System.out.println(Seagate.getDimensiones());
         System.out.println(Seagate.getCapacidad());
 
-
+        TarjetaSonido Asus = new TarjetaSonido();
+        Asus.setId(7);
+        Asus.setMarca("Xonar");
+        Asus.setModelo("Xonar SE Interno 5.1");
+        Asus.setPrecio(32);
+        System.out.println(Asus.getId());
+        System.out.println(Asus.getMarca());
+        System.out.println(Asus.getModelo());
+        System.out.println(Asus.getPrecio());
     }
 
 }

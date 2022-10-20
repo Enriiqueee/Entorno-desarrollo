@@ -10,10 +10,6 @@ public class TarjetaSonido {
     private Integer id;
     private String marca;
     private String modelo;
-
-    private String puertos;
-
-    private String memoria;
     private Integer precio;
 
     /**
@@ -42,22 +38,6 @@ public class TarjetaSonido {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
-    }
-
-    public String getPuertos() {
-        return puertos;
-    }
-
-    public void setPuertos(String puertos) {
-        this.puertos = puertos;
-    }
-
-    public String getMemoria() {
-        return memoria;
-    }
-
-    public void setMemoria(String memoria) {
-        this.memoria = memoria;
     }
 
     public Integer getPrecio() {
