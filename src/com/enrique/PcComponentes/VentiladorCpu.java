@@ -1,19 +1,16 @@
 package com.enrique.PcComponentes;
 
 /**
- * Clase TarjetaGrafica
+ * Clase VentiladorCpu
  */
-public class TarjetaGrafica {
+public class VentiladorCpu {
     /**
      * Atributos, propiedades, variables
      */
     private Integer id;
-    private String marca;
+    private String nombre;
     private String modelo;
-
-    private String puertos;
-
-    private String memoria;
+    private String marca;
     private Integer precio;
 
     /**
@@ -28,12 +25,12 @@ public class TarjetaGrafica {
         this.id = id;
     }
 
-    public String getMarca() {
-        return marca;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getModelo() {
@@ -42,20 +39,12 @@ public class TarjetaGrafica {
 
     public void setModelo(String modelo){this.modelo = modelo;}
 
-    public String getPuertos() {
-        return puertos;
+    public String getMarca() {
+        return marca;
     }
 
-    public void setPuertos(String puertos){
-        this.puertos= puertos;
-    }
-
-    public String getMemoria(){
-        return memoria;
-    }
-
-    public void setMemoria(String memoria){
-        this.memoria= memoria;
+    public void setMarca(String marca){
+        this.marca= marca;
     }
 
     public Integer getPrecio(){

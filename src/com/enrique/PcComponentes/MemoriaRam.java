@@ -1,7 +1,7 @@
 package com.enrique.PcComponentes;
 
 /**
- * Clase Placa_Base
+ * Clase MemoriaRam
  */
 public class MemoriaRam {
     /**
