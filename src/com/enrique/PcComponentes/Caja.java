@@ -10,8 +10,9 @@ public class Caja {
     private Integer id;
     private String nombre;
     private String marca;
-    private String formato;
-    private String precio;
+    private String modelo;
+    private String dimensiones;
+    private Integer precio;
 
     /**
      * Metodos, funciones, comportamiento
@@ -40,19 +41,28 @@ public class Caja {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    public String getFormato() {
-        return formato;
+
+    public String getModelo(){
+        return modelo;
     }
 
-    public void setFormato(String formato) {
-        this.formato = formato;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
-    public String getPrecio() {
+    public String getDimensiones() {
+        return dimensiones;
+    }
+
+    public void setDimensiones(String dimensiones) {
+        this.dimensiones = dimensiones;
+    }
+
+    public Integer getPrecio() {
         return precio;
     }
 
-    public void setPrecio(String precio) {
+    public void setPrecio(Integer precio) {
         this.precio = precio;
     }
 }

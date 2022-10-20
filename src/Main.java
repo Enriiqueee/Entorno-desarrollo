@@ -1,4 +1,7 @@
 import com.enrique.PcComponentes.*;
+
+import java.io.OutputStream;
+
 public class Main {
     public static void main(String[] args) {
         Procesador amd = new Procesador();
@@ -36,6 +39,30 @@ public class Main {
         System.out.println(nvidia.getPrecio());
 
         Caja Noxhummer = new Caja();
+        Noxhummer.setId(4);
+        Noxhummer.setNombre("Nox hummer ATX");
+        Noxhummer.setMarca("Nox");
+        Noxhummer.setModelo("Tempest Case");
+        Noxhummer.setDimensiones("320X120x70");
+        Noxhummer.setPrecio(77);
+        System.out.println(nvidia.getId());
+        System.out.println(Noxhummer.getNombre());
+        System.out.println(Noxhummer.getMarca());
+        System.out.println(Noxhummer.getModelo());
+        System.out.println(Noxhummer.getDimensiones());
+        System.out.println(Noxhummer.getPrecio());
 
+        VentiladorCpu Aerocool = new VentiladorCpu();
+        Aerocool.setId(5);
+        Aerocool.setNombre("Tempest Cooler");
+        Aerocool.setMarca("Tempest");
+        Aerocool.setModelo("CPU");
+        Aerocool.setPrecio(144);
+        System.out.println(Aerocool.getId());
+        System.out.println(Aerocool.getNombre());
+        System.out.println(Aerocool.getMarca());
+        System.out.println(Aerocool.getModelo());
+        System.out.println(Aerocool.getPrecio());
     }
+
 }
