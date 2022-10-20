@@ -1,18 +1,17 @@
 package com.enrique.PcComponentes;
 
 /**
- * Clase Placa_Base
+ * Clase Caja
  */
-public class Placa_Base {
+public class Caja {
     /**
      * Atributos, propiedades, variables
      */
     private Integer id;
+    private String nombre;
     private String marca;
-    private String modelo;
-
-    private String fabricante;
-    private Integer precio;
+    private String formato;
+    private String precio;
 
     /**
      * Metodos, funciones, comportamiento
@@ -25,6 +24,15 @@ public class Placa_Base {
 
         this.id = id;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -32,24 +40,19 @@ public class Placa_Base {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-
-    public String getModelo() {
-        return modelo;
+    public String getFormato() {
+        return formato;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+    public void setFormato(String formato) {
+        this.formato = formato;
     }
 
-    public String getFabricante(){return fabricante;}
-
-    public void setFabricante(String fabricante){this.fabricante = fabricante;}
-
-    public Integer getPrecio(){
+    public String getPrecio() {
         return precio;
     }
 
-    public void setPrecio(Integer precio){
+    public void setPrecio(String precio) {
         this.precio = precio;
     }
 }

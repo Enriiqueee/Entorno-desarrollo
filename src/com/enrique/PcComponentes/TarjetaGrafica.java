@@ -32,7 +32,7 @@ public class TarjetaGrafica {
         return marca;
     }
 
-    public void setMarca(String Marca) {
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 
@@ -40,7 +40,7 @@ public class TarjetaGrafica {
         return modelo;
     }
 
-    public void setModelo(String s){this.modelo = modelo;}
+    public void setModelo(String modelo){this.modelo = modelo;}
 
     public String getPuertos() {
         return puertos;
