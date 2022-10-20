@@ -1,7 +1,5 @@
 import com.enrique.PcComponentes.*;
 
-import java.io.OutputStream;
-
 public class Main {
     public static void main(String[] args) {
         Procesador amd = new Procesador();
@@ -12,7 +10,7 @@ public class Main {
         System.out.println(amd.getMarca());
         System.out.println(amd.getFabricantes());
 
-        Placa_Base gigabyte = new Placa_Base();
+        PlacaBase gigabyte = new PlacaBase();
         gigabyte.setId(2);
         gigabyte.setMarca("gigabyte");
         gigabyte.setModelo("b450");
@@ -63,6 +61,16 @@ public class Main {
         System.out.println(Aerocool.getMarca());
         System.out.println(Aerocool.getModelo());
         System.out.println(Aerocool.getPrecio());
+
+        DiscoDuro Seagate = new DiscoDuro();
+        Seagate.setId(6);
+        Seagate.setMarca("Barracuda");
+        Seagate.setCapacidad("240GB");
+        Seagate.setDimensiones("3,5");
+        System.out.println(Seagate.getId());
+        System.out.println(Seagate.getMarca());
+        System.out.println(Seagate.getDimensiones());
+        System.out.println(Seagate.getCapacidad());
 
 
     }

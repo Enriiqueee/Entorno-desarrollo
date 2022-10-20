@@ -1,9 +1,9 @@
 package com.enrique.PcComponentes;
 
 /**
- * Clase Placa_Base
+ * Clase TarjetaSonido
  */
-public class Placa_Base {
+public class TarjetaSonido {
     /**
      * Atributos, propiedades, variables
      */
@@ -11,7 +11,9 @@ public class Placa_Base {
     private String marca;
     private String modelo;
 
-    private String fabricante;
+    private String puertos;
+
+    private String memoria;
     private Integer precio;
 
     /**
@@ -25,6 +27,7 @@ public class Placa_Base {
 
         this.id = id;
     }
+
     public String getMarca() {
         return marca;
     }
@@ -41,15 +44,28 @@ public class Placa_Base {
         this.modelo = modelo;
     }
 
-    public String getFabricante(){return fabricante;}
+    public String getPuertos() {
+        return puertos;
+    }
 
-    public void setFabricante(String fabricante){this.fabricante = fabricante;}
+    public void setPuertos(String puertos) {
+        this.puertos = puertos;
+    }
 
-    public Integer getPrecio(){
+    public String getMemoria() {
+        return memoria;
+    }
+
+    public void setMemoria(String memoria) {
+        this.memoria = memoria;
+    }
+
+    public Integer getPrecio() {
         return precio;
     }
 
-    public void setPrecio(Integer precio){
+    public void setPrecio(Integer precio) {
         this.precio = precio;
     }
+
 }
