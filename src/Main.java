@@ -1,5 +1,7 @@
 import com.enrique.PcComponentes.*;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Procesador amd = new Procesador();
@@ -81,6 +83,57 @@ public class Main {
         System.out.println(Asus.getMarca());
         System.out.println(Asus.getModelo());
         System.out.println(Asus.getPrecio());
+
+        GrabadoraDVD LG = new GrabadoraDVD();
+        LG.setId(8);
+        LG.setMarca("Asus");
+        LG.setDimensiones("146x41");
+        LG.setPrecio(17);
+        System.out.println(LG.getId());
+        System.out.println(LG.getDimensiones());
+        System.out.println(LG.getPrecio());
+
+        Monitor Benq = new Monitor();
+        Benq.setId(9);
+        Benq.setMarca("Benq Zowie");
+        Benq.setFrecuencia(144);
+        Benq.setFabricante("Benq Corporations");
+        Benq.setPrecio(200);
+        System.out.println(Benq.getId());
+        System.out.println(Benq.getMarca());
+        System.out.println(Benq.getFrecuencia());
+        System.out.println(Benq.getFabricante());
+        System.out.println(Benq.getPrecio());
+
+        Teclado Forgeon = new Teclado();
+        Forgeon.setId(10);
+        Forgeon.setMarca("Forgeon");
+        Forgeon.setModelo("Clutch Blue");
+        Forgeon.setConexion("USB");
+        System.out.println(Forgeon.getId());
+        System.out.println(Forgeon.getMarca());
+        System.out.println(Forgeon.getModelo());
+        System.out.println(Forgeon.getConexion());
+
+        Raton logitech = new Raton();
+        logitech.setId(11);
+        logitech.setMarca("Logitech");
+        logitech.setModelo("G705 Wireless");
+        logitech.setConexion("USB or Wireless");
+        System.out.println(logitech.getId());
+        System.out.println(logitech.getMarca());
+        System.out.println(logitech.getModelo());
+        System.out.println(logitech.getConexion());
+
+        Altavoz Woxter = new Altavoz();
+        Woxter.setId(12);
+        Woxter.setMarca("Woxter");
+        Woxter.setModelo("Biss Bass 95");
+        Woxter.setConexion("USB");
+        System.out.println(Woxter.getId());
+            System.out.println(Woxter.getMarca());
+        System.out.println(Woxter.getModelo());
+        System.out.println(Woxter.getConexion());
     }
 
 }
