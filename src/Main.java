@@ -74,8 +74,18 @@ public class Main {
         System.out.println(Seagate.getDimensiones());
         System.out.println(Seagate.getCapacidad());
 
+        FuenteAlimentacion nox = new FuenteAlimentacion();
+        nox.setId(7);
+        nox.setMarca("Nox Urano");
+        nox.setPotencia("650W");
+        nox.setDimensiones("150X140X85");
+        System.out.println(nox.getId());
+        System.out.println(nox.getMarca());
+        System.out.println(nox.getDimensiones());
+        System.out.println(nox.getPotencia());
+
         TarjetaSonido Asus = new TarjetaSonido();
-        Asus.setId(7);
+        Asus.setId(8);
         Asus.setMarca("Xonar");
         Asus.setModelo("Xonar SE Interno 5.1");
         Asus.setPrecio(32);
@@ -85,7 +95,7 @@ public class Main {
         System.out.println(Asus.getPrecio());
 
         GrabadoraDVD LG = new GrabadoraDVD();
-        LG.setId(8);
+        LG.setId(9);
         LG.setMarca("Asus");
         LG.setDimensiones("146x41");
         LG.setPrecio(17);
@@ -94,7 +104,7 @@ public class Main {
         System.out.println(LG.getPrecio());
 
         Monitor Benq = new Monitor();
-        Benq.setId(9);
+        Benq.setId(10);
         Benq.setMarca("Benq Zowie");
         Benq.setFrecuencia(144);
         Benq.setFabricante("Benq Corporations");
@@ -106,7 +116,7 @@ public class Main {
         System.out.println(Benq.getPrecio());
 
         Teclado Forgeon = new Teclado();
-        Forgeon.setId(10);
+        Forgeon.setId(11);
         Forgeon.setMarca("Forgeon");
         Forgeon.setModelo("Clutch Blue");
         Forgeon.setConexion("USB");
@@ -116,7 +126,7 @@ public class Main {
         System.out.println(Forgeon.getConexion());
 
         Raton logitech = new Raton();
-        logitech.setId(11);
+        logitech.setId(12);
         logitech.setMarca("Logitech");
         logitech.setModelo("G705 Wireless");
         logitech.setConexion("USB or Wireless");
@@ -126,7 +136,7 @@ public class Main {
         System.out.println(logitech.getConexion());
 
         Altavoz Woxter = new Altavoz();
-        Woxter.setId(12);
+        Woxter.setId(13);
         Woxter.setMarca("Woxter");
         Woxter.setModelo("Biss Bass 95");
         Woxter.setConexion("USB");
